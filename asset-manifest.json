@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/isaif.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/isaif.github.io/static/js/main.2b505be5.chunk.js",
+    "main.js.map": "/isaif.github.io/static/js/main.2b505be5.chunk.js.map",
+    "runtime-main.js": "/isaif.github.io/static/js/runtime-main.a80071e8.js",
+    "runtime-main.js.map": "/isaif.github.io/static/js/runtime-main.a80071e8.js.map",
+    "static/js/2.31d152a3.chunk.js": "/isaif.github.io/static/js/2.31d152a3.chunk.js",
+    "static/js/2.31d152a3.chunk.js.map": "/isaif.github.io/static/js/2.31d152a3.chunk.js.map",
+    "index.html": "/isaif.github.io/index.html",
+    "precache-manifest.1e46e02a2b2ef302a98840721ade9702.js": "/isaif.github.io/precache-manifest.1e46e02a2b2ef302a98840721ade9702.js",
+    "service-worker.js": "/isaif.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/isaif.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.31d152a3.chunk.js.LICENSE.txt": "/isaif.github.io/static/js/2.31d152a3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/isaif.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a80071e8.js",
+    "static/js/2.31d152a3.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2b505be5.chunk.js"
+  ]
+}
