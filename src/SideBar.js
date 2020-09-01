@@ -1,27 +1,27 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./NavBar.css";
+import "./SideBar.css";
 import MenuButton from "./MenuButton";
 import { CSSTransition } from "react-transition-group";
 
-function NavBar() {
+function SideBar() {
   const [showSideBar, setShowSideBar] = useState(false);
 
-  const toggleNavBar = () => {
+  const toggleSideBar = () => {
     setShowSideBar(!showSideBar);
   };
 
   return (
     <div>
-      <MenuButton handleClick={toggleNavBar} showSideBar={showSideBar} />
+      <MenuButton handleClick={toggleSideBar} showSideBar={showSideBar} />
       <CSSTransition
         in={showSideBar}
         timeout={350}
         classNames="my-node"
         unmountOnExit
       >
-        <div className="NavBar">
-          <ul onClick={toggleNavBar}>
+        <div className="SideBar">
+          <ul onClick={toggleSideBar}>
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -38,10 +38,10 @@ function NavBar() {
         </div>
       </CSSTransition>
       {showSideBar && (
-        <div onClick={toggleNavBar} className="overlay-sidebar"></div>
+        <div onClick={toggleSideBar} className="overlay-sidebar"></div>
       )}
     </div>
   );
 }
 
-export default NavBar;
+export default SideBar;
