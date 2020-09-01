@@ -21,7 +21,7 @@ function NavBar() {
         unmountOnExit
       >
         <div className="NavBar">
-          <ul>
+          <ul onClick={toggleNavBar}>
             <li>
               <Link to="/">Home</Link>
             </li>
