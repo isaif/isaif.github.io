@@ -1,20 +1,21 @@
 .NavBar {
-  /* position: relative; */
-  /* z-index: 100; */
   height: 100vh;
   width: 80vw;
-  position: fixed; /* Stay in place */
-  z-index: 10; /* Stay on top */
-  top: 0; /* Stay at the top */
+  position: fixed;
+  z-index: 10;
+  top: 0;
   left: 0;
   background: white;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  /* padding-top: 60px; /1* Place content 60px from the top *1/ */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow-x: hidden;
+  transition: 0.5s;
   box-shadow: 10px 0 11px 0px #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.my-node-enter, .my-node-exit {
+.my-node-enter,
+.my-node-exit {
   transform: translate(-80vw);
   opacity: 0;
 }
@@ -31,13 +32,18 @@
 ul {
   display: flex;
   flex-flow: column;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
-  /* margin: 2em 5em; */
+  margin: 1.5em;
 }
 
 a {
   text-decoration: none;
+  font-size: 2.5rem;
+  color: black;
 }
