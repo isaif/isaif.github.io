@@ -1,0 +1,35 @@
+.MenuButton {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 1.8rem;
+  height: 0.3rem;
+  background: black;
+  transition: 0.5s;
+}
+
+.bar2 {
+  margin: 6px 0;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg);
+  transform-origin: 103%;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg);
+  transform-origin: 103%;
+}

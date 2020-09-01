@@ -13,7 +13,7 @@ function NavBar() {
 
   return (
     <div>
-      <MenuButton handleClick={toggleNavBar} />
+      <MenuButton handleClick={toggleNavBar} showSideBar={showSideBar} />
       <CSSTransition
         in={showSideBar}
         timeout={350}
@@ -37,7 +37,9 @@ function NavBar() {
           </ul>
         </div>
       </CSSTransition>
-      {showSideBar && (<div onClick={toggleNavBar} className="overlay-sidebar"></div>)}
+      {showSideBar && (
+        <div onClick={toggleNavBar} className="overlay-sidebar"></div>
+      )}
     </div>
   );
 }
