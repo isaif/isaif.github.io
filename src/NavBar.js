@@ -37,6 +37,7 @@ function NavBar() {
           </ul>
         </div>
       </CSSTransition>
+      {showSideBar && (<div onClick={toggleNavBar} className="overlay-sidebar"></div>)}
     </div>
   );
 }
