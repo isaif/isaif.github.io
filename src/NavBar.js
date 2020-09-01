@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import NavButton from "./NavButton";
+import MenuButton from "./MenuButton";
 import { CSSTransition } from "react-transition-group";
 
 function NavBar() {
@@ -13,7 +13,7 @@ function NavBar() {
 
   return (
     <div>
-      <NavButton handleClick={toggleNavBar} />
+      <MenuButton handleClick={toggleNavBar} />
       <CSSTransition
         in={showSideBar}
         timeout={350}
