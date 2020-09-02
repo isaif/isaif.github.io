@@ -11,7 +11,7 @@
   box-shadow: 2px 0 11px 0px #888;
   display: flex;
   justify-content: center;
-  padding-top: 3em;
+  padding-top: 10vh;
 }
 
 .sidebar-enter,
@@ -21,7 +21,7 @@
 }
 
 .selected {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .overlay-sidebar {
@@ -43,11 +43,11 @@ ul {
 
 li {
   list-style-type: none;
-  margin: 1.5em;
+  margin: 1.2em;
 }
 
 a {
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: black;
 }
