@@ -22,6 +22,7 @@
 
 .selected {
   font-size: 3rem;
+  font-weight: bold;
 }
 
 .overlay-sidebar {
@@ -36,18 +37,19 @@
 ul {
   display: flex;
   flex-flow: column;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   padding: 0;
 }
 
 li {
   list-style-type: none;
-  margin: 1.2em;
+  margin: 1em;
 }
 
 a {
   text-decoration: none;
   font-size: 2rem;
   color: black;
+  transition: 5s;
 }
