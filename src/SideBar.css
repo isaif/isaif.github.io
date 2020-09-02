@@ -20,6 +20,10 @@
   opacity: 0;
 }
 
+.selected {
+  font-size: 4rem;
+}
+
 .overlay-sidebar {
   opacity: 0;
   position: fixed;
