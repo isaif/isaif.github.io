@@ -17,10 +17,10 @@ function SideBar() {
       <CSSTransition
         in={showSideBar}
         timeout={350}
-        classNames="my-node"
+        classNames="sidebar"
         unmountOnExit
       >
-        <div className="SideBar">
+        <div className="sidebar-content">
           <ul onClick={toggleSideBar}>
             <li>
               <Link to="/">Home</Link>

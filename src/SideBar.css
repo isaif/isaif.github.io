@@ -1,4 +1,4 @@
-.SideBar {
+.sidebar-content {
   height: 100vh;
   width: 80vw;
   position: fixed;
@@ -14,8 +14,8 @@
   padding-top: 3em;
 }
 
-.my-node-enter,
-.my-node-exit {
+.sidebar-enter,
+.sidebar-exit {
   transform: translate(-80vw);
   opacity: 0;
 }
