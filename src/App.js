@@ -1,7 +1,8 @@
 import React from "react";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
 import SideBar from "./SideBar/SideBar.js";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import SocialLinks from "./SocialLinks.js";
 import Home from "./Home.js";
 import Projects from "./Projects.js";
 import About from "./About.js";
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <SideBar />
+        <SocialLinks />
         <Switch>
           <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />

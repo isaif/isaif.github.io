@@ -1,0 +1,17 @@
+.social-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.social-container a {
+  display: inline-block;
+}
+
+.github-icon,
+.stackoverflow-icon {
+  width: 0.7em;
+  height: 0.7em;
+  margin: 0.3em 0.3em;
+}
