@@ -10,8 +10,8 @@
   transition: 0.5s;
   box-shadow: 10px 0 11px 0px #888;
   display: flex;
-  align-items: center;
   justify-content: center;
+  padding-top: 3em;
 }
 
 .my-node-enter,
