@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./SideBar.css";
 import MenuButton from "./MenuButton";
 import { CSSTransition } from "react-transition-group";
@@ -23,16 +23,24 @@ function SideBar() {
         <div className="sidebar-content">
           <ul onClick={toggleSideBar}>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink exact={true} to="/" activeClassName="selected">
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <NavLink to="/projects" activeClassName="selected">
+                Projects
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink to="/about" activeClassName="selected">
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact" activeClassName="selected">
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
