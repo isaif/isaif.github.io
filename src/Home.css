@@ -27,3 +27,25 @@ p {
   margin: 0 auto;
   width: 70%;
 }
+
+p:first-child {
+  animation: fadein 2s ease-in forwards;
+}
+
+h1 {
+  animation: fadein 2s ease-in 0.5s forwards;
+}
+
+p:last-child {
+  animation: fadein 1.5s ease-in 1s forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+  }
+}
