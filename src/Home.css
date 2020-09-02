@@ -12,15 +12,22 @@ p {
   line-height: 1.4em;
 }
 
+.intro-links a {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .Home {
   /* max-width: 90%; */
   height: 100vh;
   display: flex;
   padding-top: 30vh;
-  /* flex-flow: column; */
+  flex-flow: column;
   /* justify-content: center; */
-  /* align-items: center; */
+  align-items: center;
   /* font-family: "Roboto"; */
+  box-sizing: border-box;
 }
 
 .container {
@@ -28,16 +35,27 @@ p {
   width: 70%;
 }
 
-p:first-child {
+.intro-name {
   animation: fadein 2s ease-in forwards;
 }
 
-h1 {
+.intro-main {
   animation: fadein 2s ease-in 0.5s forwards;
 }
 
-p:last-child {
+.intro-details {
   animation: fadein 1.5s ease-in 1s forwards;
+}
+
+.intro-links {
+  opacity: 0;
+  margin: 1.5em auto;
+  animation: fadein 1.5s ease-in 1.5s forwards;
+}
+
+.intro-links-divider {
+  margin: 0 0.7em;
+  color: #bcbcbc;
 }
 
 @keyframes fadein {
